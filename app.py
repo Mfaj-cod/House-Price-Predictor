@@ -3,10 +3,10 @@ import pickle
 import pandas as pd
 
 
-with open('resources\\model.pkl', 'rb') as m:
+with open('resources/model.pkl', 'rb') as m:
     model = pickle.load(m)
 
-with open('resources\\scaler.pkl', 'rb') as s:
+with open('resources/scaler.pkl', 'rb') as s:
     scaler = pickle.load(s)
 
 app = Flask(__name__)
